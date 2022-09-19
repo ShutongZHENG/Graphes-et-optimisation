@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50B3E68228D8B7FB00E66677 /* Edge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B3E68028D8B7FB00E66677 /* Edge.cpp */; };
+		50B3E68528D8B83D00E66677 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B3E68328D8B83D00E66677 /* Node.cpp */; };
+		50B3E68828D8B87A00E66677 /* Graphe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50B3E68628D8B87A00E66677 /* Graphe.cpp */; };
 		50DBDA5B28D8849600F0D08E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50DBDA5A28D8849600F0D08E /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		50B3E68028D8B7FB00E66677 /* Edge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Edge.cpp; sourceTree = "<group>"; };
+		50B3E68128D8B7FB00E66677 /* Edge.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Edge.hpp; sourceTree = "<group>"; };
+		50B3E68328D8B83D00E66677 /* Node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		50B3E68428D8B83D00E66677 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		50B3E68628D8B87A00E66677 /* Graphe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graphe.cpp; sourceTree = "<group>"; };
+		50B3E68728D8B87A00E66677 /* Graphe.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graphe.hpp; sourceTree = "<group>"; };
 		50DBDA5728D8849600F0D08E /* Graphes et optimisation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Graphes et optimisation"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50DBDA5A28D8849600F0D08E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				50DBDA5A28D8849600F0D08E /* main.cpp */,
+				50B3E68028D8B7FB00E66677 /* Edge.cpp */,
+				50B3E68128D8B7FB00E66677 /* Edge.hpp */,
+				50B3E68328D8B83D00E66677 /* Node.cpp */,
+				50B3E68428D8B83D00E66677 /* Node.hpp */,
+				50B3E68628D8B87A00E66677 /* Graphe.cpp */,
+				50B3E68728D8B87A00E66677 /* Graphe.hpp */,
 			);
 			path = "Graphes et optimisation";
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B3E68528D8B83D00E66677 /* Node.cpp in Sources */,
+				50B3E68228D8B7FB00E66677 /* Edge.cpp in Sources */,
+				50B3E68828D8B87A00E66677 /* Graphe.cpp in Sources */,
 				50DBDA5B28D8849600F0D08E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
